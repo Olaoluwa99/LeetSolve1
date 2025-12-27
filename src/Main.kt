@@ -57,9 +57,25 @@ fun main() {
     /*val solution = RemoveDuplicatesSolution()
     println(solution.removeDuplicates(intArrayOf(0,0,1,1,1,2,2,3,3,4,4,4,4,6,7)))*/
 
-    val solution = RemoveElementSolution()
+    /*val solution = RemoveElementSolution()
     println(solution.removeElement(intArrayOf(3,2,2,3), `val` = 3))
-    println(solution.removeElement(intArrayOf(0,1,2,2,3,0,4,2), `val` = 2))
+    println(solution.removeElement(intArrayOf(0,1,2,2,3,0,4,2), `val` = 2))*/
+
+    /*val solution = FirstIndexStringSolution()
+    println(solution.strStr("sadbutsad", "sad"))
+    println(solution.strStrLong("sadbutsad", "sad"))
+    println(solution.strStr("leetcode", "leeto"))
+    println(solution.strStrLong("leetcode", "leeto"))*/
+
+    /*val solution = SearchInsertPositionSolution()
+    println(solution.searchInsert(intArrayOf(1,3,5,6), 5))
+    println(solution.searchInsert(intArrayOf(1,3,5,6), 2))
+    println(solution.searchInsert(intArrayOf(1,3,5,6), 7))*/
+
+    val solution = LengthOfLastWordSolution()
+    println(solution.lengthOfLastWord("Hello World"))
+    println(solution.lengthOfLastWord("   fly me   to   the moon  "))
+    println(solution.lengthOfLastWord("luffy is still joyboy"))
 }
 
 
