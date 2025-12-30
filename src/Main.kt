@@ -72,10 +72,23 @@ fun main() {
     println(solution.searchInsert(intArrayOf(1,3,5,6), 2))
     println(solution.searchInsert(intArrayOf(1,3,5,6), 7))*/
 
-    val solution = LengthOfLastWordSolution()
+    /*val solution = LengthOfLastWordSolution()
     println(solution.lengthOfLastWord("Hello World"))
     println(solution.lengthOfLastWord("   fly me   to   the moon  "))
-    println(solution.lengthOfLastWord("luffy is still joyboy"))
+    println(solution.lengthOfLastWord("luffy is still joyboy"))*/
+
+    /*val solution = PlusOneSolution()
+    println(solution.plusOne(intArrayOf(1,2,3)).toList())
+    println(solution.plusOne(intArrayOf(4,3,2,1)).toList())
+    println(solution.plusOne(intArrayOf(9)).toList())
+    println(solution.plusOne(intArrayOf()).toList())*/
+
+    /*val solution = AddBinarySolution()
+    println(solution.addBinary("11", "1"))
+    println(solution.addBinary("1010", "1011"))*/
+
+    val solution = SquareRootSolution()
+    println(solution.mySqrt(144))
 }
 
 
